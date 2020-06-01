@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a28320-7ae8-4f3a-a2a0-e321b3f82e3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +14,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cjCiHo3bpRSO10khgM4xQX9Nn5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -36,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591032741063</updated>
-      <workItem from="1591032744298" duration="1349000" />
+      <workItem from="1591032744298" duration="1533000" />
     </task>
     <task id="LOCAL-00001" summary="changed app.js to extend root route">
       <created>1591034022297</created>
@@ -45,24 +48,33 @@
       <option name="project" value="LOCAL" />
       <updated>1591034022297</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed app.js to extend root route">
+      <created>1591034253424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591034253424</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changed app.js to extend root route" />
     <option name="LAST_COMMIT_MESSAGE" value="changed app.js to extend root route" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-837" y="23" key="CommitChangelistDialog2" timestamp="1591034022162">
+    <state x="-837" y="23" key="CommitChangelistDialog2" timestamp="1591034253311">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-837" y="23" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034022162" />
-    <state x="700" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1591032745475">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="-837" y="23" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034253311" />
+    <state x="-987" y="316" key="com.intellij.ide.util.TipDialog" timestamp="1591034436932">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-987" y="316" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034436932" />
     <state x="700" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1591032745475" />
     <state x="-783" y="154" key="search.everywhere.popup" timestamp="1591034134525">
       <screen x="-1920" y="23" width="1920" height="1057" />
