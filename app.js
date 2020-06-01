@@ -10,10 +10,13 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 // Use handlebars to render
 app.set('view engine', 'handlebars');
 
-// Render the "home" layout for the main page and send the following msg
+// Tell our app to send the "hello world" message to our home pag
+  // Render the "home" layout for the main page and send the following msg
 app.get('/', (req, res) => {
+  //res.send('Hello World!')
   res.render('home', { msg: 'Handlebars are Cool!' });
 })
+
 
 // Choose a port to listen on
 const port = process.env.PORT || 3000;

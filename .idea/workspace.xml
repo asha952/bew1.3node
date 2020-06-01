@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85a28320-7ae8-4f3a-a2a0-e321b3f82e3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +36,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591032741063</updated>
-      <workItem from="1591032744298" duration="1078000" />
+      <workItem from="1591032744298" duration="1349000" />
     </task>
+    <task id="LOCAL-00001" summary="changed app.js to extend root route">
+      <created>1591034022297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591034022297</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed app.js to extend root route" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed app.js to extend root route" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-837" y="23" key="CommitChangelistDialog2" timestamp="1591034022162">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-837" y="23" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034022162" />
     <state x="700" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1591032745475">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="700" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1591032745475" />
+    <state x="-783" y="154" key="search.everywhere.popup" timestamp="1591034134525">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-783" y="154" key="search.everywhere.popup/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034134525" />
   </component>
 </project>
