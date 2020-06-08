@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a28320-7ae8-4f3a-a2a0-e321b3f82e3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/chikns.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/navbar.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/events-index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/events-index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <updated>1591032741063</updated>
       <workItem from="1591032744298" duration="1533000" />
       <workItem from="1591034436562" duration="683000" />
-      <workItem from="1591582306462" duration="1836000" />
+      <workItem from="1591582306462" duration="3656000" />
     </task>
     <task id="LOCAL-00001" summary="changed app.js to extend root route">
       <created>1591034022297</created>
@@ -80,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591583771449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working site with image">
+      <created>1591584503612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591584503612</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,13 +97,14 @@
     <MESSAGE value="changed app.js to extend root route" />
     <MESSAGE value="added handlebar files to views and views layouts" />
     <MESSAGE value="added handlebar file events-index.handlebars" />
-    <option name="LAST_COMMIT_MESSAGE" value="added handlebar file events-index.handlebars" />
+    <MESSAGE value="working site with image" />
+    <option name="LAST_COMMIT_MESSAGE" value="working site with image" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="-1057" key="CommitChangelistDialog2" timestamp="1591583771340">
+    <state x="818" y="-1057" key="CommitChangelistDialog2" timestamp="1591584503497">
       <screen x="-265" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="818" y="-1057" key="CommitChangelistDialog2/0.23.1440.821/-265.-1057.1920.1057@-265.-1057.1920.1057" timestamp="1591583771340" />
+    <state x="818" y="-1057" key="CommitChangelistDialog2/0.23.1440.821/-265.-1057.1920.1057@-265.-1057.1920.1057" timestamp="1591584503497" />
     <state x="-837" y="23" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034632807" />
     <state x="-987" y="316" key="com.intellij.ide.util.TipDialog" timestamp="1591034436932">
       <screen x="-1920" y="23" width="1920" height="1057" />
