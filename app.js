@@ -1,6 +1,8 @@
 // Initialize express
 const express = require('express')
 const app = express()
+// INITIALIZE BODY-PARSER AND ADD IT TO APP
+const bodyParser = require('body-parser');
 
 
 // require handlebars
@@ -10,6 +12,9 @@ var exphbs = require('express-handlebars');
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 // Use handlebars to render
 app.set('view engine', 'handlebars');
+
+// The following line must appear AFTER const app = express() and before your routes!
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Tell our app to send the "hello world" message to our home pag
   // Render the "home" layout for the main page and send the following msg
@@ -32,7 +37,9 @@ app.get('/events/new', (req, res) => {
   res.render('events-new', {});
 })
 
-
+app.post('/events', (req, res) => {
+  console.log(req.body);
+})
 // Choose a port to listen on
 const port = process.env.PORT || 3000;
 
