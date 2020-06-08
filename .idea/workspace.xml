@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a28320-7ae8-4f3a-a2a0-e321b3f82e3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/events-index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
       <updated>1591032741063</updated>
       <workItem from="1591032744298" duration="1533000" />
       <workItem from="1591034436562" duration="683000" />
+      <workItem from="1591582306462" duration="1058000" />
     </task>
     <task id="LOCAL-00001" summary="changed app.js to extend root route">
       <created>1591034022297</created>
@@ -62,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591034632947</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added handlebar files to views and views layouts">
+      <created>1591582331937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591582331937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
