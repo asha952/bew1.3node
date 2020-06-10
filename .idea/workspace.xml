@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a28320-7ae8-4f3a-a2a0-e321b3f82e3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrations/20200603023212-add-img-url-to-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrations/2020060330522-create-event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/models/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/models/rsvp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/events-edit.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/events-form.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/events-show.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/events-index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/events-index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/events-new.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/events-new.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +50,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db/config" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,7 +67,9 @@
       <updated>1591032741063</updated>
       <workItem from="1591032744298" duration="1533000" />
       <workItem from="1591034436562" duration="683000" />
-      <workItem from="1591582306462" duration="5538000" />
+      <workItem from="1591582306462" duration="6042000" />
+      <workItem from="1591763472819" duration="560000" />
+      <workItem from="1591767264559" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="changed app.js to extend root route">
       <created>1591034022297</created>
@@ -129,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591589659837</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modified app.js">
+      <created>1591651043475</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591651043477</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,17 +179,27 @@
     <MESSAGE value="updated each in events-index.handlebars" />
     <MESSAGE value="updated new events" />
     <MESSAGE value="added events-new.handlebars" />
-    <option name="LAST_COMMIT_MESSAGE" value="added events-new.handlebars" />
+    <MESSAGE value="modified app.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified app.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="-1057" key="CommitChangelistDialog2" timestamp="1591589659684">
+    <state x="948" y="-855" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591769400218">
       <screen x="-265" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="818" y="-1057" key="CommitChangelistDialog2/0.23.1440.821/-265.-1057.1920.1057@-265.-1057.1920.1057" timestamp="1591589659684" />
-    <state x="-837" y="23" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034632807" />
-    <state x="-987" y="316" key="com.intellij.ide.util.TipDialog" timestamp="1591034436932">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="948" y="-855" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821/-265.-1057.1920.1057@-265.-1057.1920.1057" timestamp="1591769400218" />
+    <state x="896" y="-922" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591767200210">
+      <screen x="-265" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="896" y="-922" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.821/-265.-1057.1920.1057@-265.-1057.1920.1057" timestamp="1591767200210" />
+    <state x="818" y="-1057" key="CommitChangelistDialog2" timestamp="1591651043298">
+      <screen x="-265" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="818" y="-1057" key="CommitChangelistDialog2/0.23.1440.821/-265.-1057.1920.1057@-265.-1057.1920.1057" timestamp="1591651043298" />
+    <state x="-837" y="23" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034632807" />
+    <state x="668" y="-764" key="com.intellij.ide.util.TipDialog" timestamp="1591767352799">
+      <screen x="-265" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="668" y="-764" key="com.intellij.ide.util.TipDialog/0.23.1440.821/-265.-1057.1920.1057@-265.-1057.1920.1057" timestamp="1591767352799" />
     <state x="-987" y="316" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591034436932" />
     <state x="700" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1591032745475" />
     <state x="-783" y="154" key="search.everywhere.popup" timestamp="1591034134525">
